@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package homework
 
 func reverse(input []int64) (result []int64) {
 	var output []int64
@@ -11,11 +9,4 @@ func reverse(input []int64) (result []int64) {
 		output = append(output, (input)[i])
 	}
 	return output
-}
-
-func main() {
-	reverseInput := []int64{1, 2, 5, 15}
-	reverseRes := reverse(reverseInput)
-	fmt.Printf("reverse result: %v\n", reverseRes)
-
 }
