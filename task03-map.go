@@ -1,4 +1,4 @@
-package main
+package homework
 
 import (
 	"fmt"
@@ -22,4 +22,5 @@ func main() {
 	sortMapValuesInput := map[int]string{2: "a", 0: "b", 1: "c"}
 	sortMapValuesRes := sortMapValues(&sortMapValuesInput)
 	fmt.Printf("sortMapValues result: %v\n", sortMapValuesRes)
+
 }
