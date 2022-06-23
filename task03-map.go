@@ -1,4 +1,4 @@
-package homework
+package main
 
 import (
 	"fmt"
@@ -18,7 +18,7 @@ func sortMapValues(input map[int]string) (result []string) {
 	return output
 }
 
-func main() {
+func fuck() {
 
 	sortMapValuesInput := map[int]string{2: "a", 0: "b", 1: "c"}
 	sortMapValuesRes := sortMapValues(sortMapValuesInput)
