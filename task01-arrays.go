@@ -1,4 +1,4 @@
-package homework
+package main
 
 import "fmt"
 
@@ -12,9 +12,10 @@ func average(input []float64) float64 {
 	}
 	return sum / float64(len(input))
 }
+
 func main() {
 	averageInput := []float64{1, 2, 3, 4, 5, 6}
 	averageRes := average(averageInput)
-	fmt.Printf("Average result: %f\n", averageRes)
+	fmt.Printf("Average result: %.1f\n", averageRes)
 
 }
